@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "msb_lsb.c.exe"
+			"path" : "hamming_distance.exe"
 		},
 		{
-			"path" : "msb_lsb.c.pdb"
+			"path" : "hamming_distance.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 6,
 				"parent" : 0
 			}
 		]
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "msb_lsb.c::@6890427a1f51a3e7e1df",
+	"id" : "hamming_distance::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "msb_lsb.c",
-	"nameOnDisk" : "msb_lsb.c.exe",
+	"name" : "hamming_distance",
+	"nameOnDisk" : "hamming_distance.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "msb_lsb.c",
+			"path" : "hamming_distance.c",
 			"sourceGroupIndex" : 0
 		}
 	],

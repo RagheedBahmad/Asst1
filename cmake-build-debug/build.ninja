@@ -41,70 +41,103 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/user/OneDrive/Desktop/C$ projects$ (cmps$ 270)/Asst1/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target hamming_distance.c
+# Object build statements for EXECUTABLE target hamming_distance
 
 
 #############################################
-# Order-only phony target for hamming_distance.c
+# Order-only phony target for hamming_distance
 
-build cmake_object_order_depends_target_hamming_distance.c: phony || CMakeFiles/hamming_distance.c.dir
+build cmake_object_order_depends_target_hamming_distance: phony || CMakeFiles/hamming_distance.dir
 
-build CMakeFiles/hamming_distance.c.dir/hamming_distance.c.obj: C_COMPILER__hamming_distance.2ec_Debug C$:/Users/user/OneDrive/Desktop/C$ projects$ (cmps$ 270)/Asst1/hamming_distance.c || cmake_object_order_depends_target_hamming_distance.c
-  DEP_FILE = CMakeFiles\hamming_distance.c.dir\hamming_distance.c.obj.d
+build CMakeFiles/hamming_distance.dir/hamming_distance.c.obj: C_COMPILER__hamming_distance_Debug C$:/Users/user/OneDrive/Desktop/C$ projects$ (cmps$ 270)/Asst1/hamming_distance.c || cmake_object_order_depends_target_hamming_distance
+  DEP_FILE = CMakeFiles\hamming_distance.dir\hamming_distance.c.obj.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\hamming_distance.c.dir
-  OBJECT_FILE_DIR = CMakeFiles\hamming_distance.c.dir
+  OBJECT_DIR = CMakeFiles\hamming_distance.dir
+  OBJECT_FILE_DIR = CMakeFiles\hamming_distance.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target hamming_distance.c
+# Link build statements for EXECUTABLE target hamming_distance
 
 
 #############################################
-# Link the executable hamming_distance.c.exe
+# Link the executable hamming_distance.exe
 
-build hamming_distance.c.exe: C_EXECUTABLE_LINKER__hamming_distance.2ec_Debug CMakeFiles/hamming_distance.c.dir/hamming_distance.c.obj
+build hamming_distance.exe: C_EXECUTABLE_LINKER__hamming_distance_Debug CMakeFiles/hamming_distance.dir/hamming_distance.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\hamming_distance.c.dir
+  OBJECT_DIR = CMakeFiles\hamming_distance.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = hamming_distance.c.exe
-  TARGET_IMPLIB = libhamming_distance.c.dll.a
-  TARGET_PDB = hamming_distance.c.exe.dbg
+  TARGET_FILE = hamming_distance.exe
+  TARGET_IMPLIB = libhamming_distance.dll.a
+  TARGET_PDB = hamming_distance.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target msb_lsb.c
+# Object build statements for EXECUTABLE target msb_lsb
 
 
 #############################################
-# Order-only phony target for msb_lsb.c
+# Order-only phony target for msb_lsb
 
-build cmake_object_order_depends_target_msb_lsb.c: phony || CMakeFiles/msb_lsb.c.dir
+build cmake_object_order_depends_target_msb_lsb: phony || CMakeFiles/msb_lsb.dir
 
-build CMakeFiles/msb_lsb.c.dir/msb_lsb.c.obj: C_COMPILER__msb_lsb.2ec_Debug C$:/Users/user/OneDrive/Desktop/C$ projects$ (cmps$ 270)/Asst1/msb_lsb.c || cmake_object_order_depends_target_msb_lsb.c
-  DEP_FILE = CMakeFiles\msb_lsb.c.dir\msb_lsb.c.obj.d
+build CMakeFiles/msb_lsb.dir/msb_lsb.c.obj: C_COMPILER__msb_lsb_Debug C$:/Users/user/OneDrive/Desktop/C$ projects$ (cmps$ 270)/Asst1/msb_lsb.c || cmake_object_order_depends_target_msb_lsb
+  DEP_FILE = CMakeFiles\msb_lsb.dir\msb_lsb.c.obj.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\msb_lsb.c.dir
-  OBJECT_FILE_DIR = CMakeFiles\msb_lsb.c.dir
+  OBJECT_DIR = CMakeFiles\msb_lsb.dir
+  OBJECT_FILE_DIR = CMakeFiles\msb_lsb.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target msb_lsb.c
+# Link build statements for EXECUTABLE target msb_lsb
 
 
 #############################################
-# Link the executable msb_lsb.c.exe
+# Link the executable msb_lsb.exe
 
-build msb_lsb.c.exe: C_EXECUTABLE_LINKER__msb_lsb.2ec_Debug CMakeFiles/msb_lsb.c.dir/msb_lsb.c.obj
+build msb_lsb.exe: C_EXECUTABLE_LINKER__msb_lsb_Debug CMakeFiles/msb_lsb.dir/msb_lsb.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\msb_lsb.c.dir
+  OBJECT_DIR = CMakeFiles\msb_lsb.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = msb_lsb.c.exe
-  TARGET_IMPLIB = libmsb_lsb.c.dll.a
-  TARGET_PDB = msb_lsb.c.exe.dbg
+  TARGET_FILE = msb_lsb.exe
+  TARGET_IMPLIB = libmsb_lsb.dll.a
+  TARGET_PDB = msb_lsb.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target my_arrays
+
+
+#############################################
+# Order-only phony target for my_arrays
+
+build cmake_object_order_depends_target_my_arrays: phony || CMakeFiles/my_arrays.dir
+
+build CMakeFiles/my_arrays.dir/my_arrays.c.obj: C_COMPILER__my_arrays_Debug C$:/Users/user/OneDrive/Desktop/C$ projects$ (cmps$ 270)/Asst1/my_arrays.c || cmake_object_order_depends_target_my_arrays
+  DEP_FILE = CMakeFiles\my_arrays.dir\my_arrays.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\my_arrays.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_arrays.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target my_arrays
+
+
+#############################################
+# Link the executable my_arrays.exe
+
+build my_arrays.exe: C_EXECUTABLE_LINKER__my_arrays_Debug CMakeFiles/my_arrays.dir/my_arrays.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\my_arrays.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = my_arrays.exe
+  TARGET_IMPLIB = libmy_arrays.dll.a
+  TARGET_PDB = my_arrays.exe.dbg
 
 
 #############################################
@@ -132,9 +165,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build hamming_distance.c: phony hamming_distance.c.exe
+build hamming_distance: phony hamming_distance.exe
 
-build msb_lsb.c: phony msb_lsb.c.exe
+build msb_lsb: phony msb_lsb.exe
+
+build my_arrays: phony my_arrays.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +179,7 @@ build msb_lsb.c: phony msb_lsb.c.exe
 #############################################
 # Folder: C:/Users/user/OneDrive/Desktop/C projects (cmps 270)/Asst1/cmake-build-debug
 
-build all: phony hamming_distance.c.exe msb_lsb.c.exe
+build all: phony hamming_distance.exe msb_lsb.exe my_arrays.exe
 
 # =============================================================================
 # Built-in targets

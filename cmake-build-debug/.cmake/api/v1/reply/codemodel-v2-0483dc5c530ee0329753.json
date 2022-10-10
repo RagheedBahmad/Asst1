@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -40,16 +42,23 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "hamming_distance.c::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hamming_distance.c-Debug-1c27d29646f8b9757ae9.json",
-					"name" : "hamming_distance.c",
+					"id" : "hamming_distance::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hamming_distance-Debug-ebc0569f73ad8bc22f22.json",
+					"name" : "hamming_distance",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "msb_lsb.c::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-msb_lsb.c-Debug-ea9662beb2a9b7c2bf64.json",
-					"name" : "msb_lsb.c",
+					"id" : "msb_lsb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msb_lsb-Debug-0cdea17247cf1b59ba04.json",
+					"name" : "msb_lsb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_arrays::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_arrays-Debug-7d3f152f19cd7c39a210.json",
+					"name" : "my_arrays",
 					"projectIndex" : 0
 				}
 			]
