@@ -22,10 +22,15 @@ int main() {
     int x1 = 0, x2;
     printf("\nEnter a pair of non negative integers:");
     while (x1 >= 0) {
-        scanf("%u %u", &x1, &x2);
-        if (x1 < 0)
-            return 0;
+        if (scanf("%u %u", &x1, &x2) == 2) {
+        if (x1 < 0 || x2 < 0) {
+            break;
+        }
         printf("%d\n", hammingDistance(x1, x2));
+    } else {
+            printf("Only enter integers\n");
+            while ((getchar()) != '\n');
+        }
     }
     return 0;
 }
