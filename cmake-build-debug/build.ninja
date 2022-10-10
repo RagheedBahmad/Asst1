@@ -139,6 +139,39 @@ build my_arrays.exe: C_EXECUTABLE_LINKER__my_arrays_Debug CMakeFiles/my_arrays.d
   TARGET_IMPLIB = libmy_arrays.dll.a
   TARGET_PDB = my_arrays.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target my_pointers
+
+
+#############################################
+# Order-only phony target for my_pointers
+
+build cmake_object_order_depends_target_my_pointers: phony || CMakeFiles/my_pointers.dir
+
+build CMakeFiles/my_pointers.dir/my_pointers.c.obj: C_COMPILER__my_pointers_Debug C$:/Users/user/OneDrive/Desktop/C$ projects$ (cmps$ 270)/Asst1/my_pointers.c || cmake_object_order_depends_target_my_pointers
+  DEP_FILE = CMakeFiles\my_pointers.dir\my_pointers.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\my_pointers.dir
+  OBJECT_FILE_DIR = CMakeFiles\my_pointers.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target my_pointers
+
+
+#############################################
+# Link the executable my_pointers.exe
+
+build my_pointers.exe: C_EXECUTABLE_LINKER__my_pointers_Debug CMakeFiles/my_pointers.dir/my_pointers.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\my_pointers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = my_pointers.exe
+  TARGET_IMPLIB = libmy_pointers.dll.a
+  TARGET_PDB = my_pointers.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -171,6 +204,8 @@ build msb_lsb: phony msb_lsb.exe
 
 build my_arrays: phony my_arrays.exe
 
+build my_pointers: phony my_pointers.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +214,7 @@ build my_arrays: phony my_arrays.exe
 #############################################
 # Folder: C:/Users/user/OneDrive/Desktop/C projects (cmps 270)/Asst1/cmake-build-debug
 
-build all: phony hamming_distance.exe msb_lsb.exe my_arrays.exe
+build all: phony hamming_distance.exe msb_lsb.exe my_arrays.exe my_pointers.exe
 
 # =============================================================================
 # Built-in targets

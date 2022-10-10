@@ -1,5 +1,6 @@
 C:/Users/user/OneDrive/Desktop/C projects (cmps 270)/Asst1/cmake-build-debug/CMakeFiles/hamming_distance.dir
 C:/Users/user/OneDrive/Desktop/C projects (cmps 270)/Asst1/cmake-build-debug/CMakeFiles/msb_lsb.dir
 C:/Users/user/OneDrive/Desktop/C projects (cmps 270)/Asst1/cmake-build-debug/CMakeFiles/my_arrays.dir
+C:/Users/user/OneDrive/Desktop/C projects (cmps 270)/Asst1/cmake-build-debug/CMakeFiles/my_pointers.dir
 C:/Users/user/OneDrive/Desktop/C projects (cmps 270)/Asst1/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/user/OneDrive/Desktop/C projects (cmps 270)/Asst1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
