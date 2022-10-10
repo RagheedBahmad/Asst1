@@ -1,0 +1,4 @@
+C:/Users/user/OneDrive/Desktop/C projects (cmps 270)/Asst1/cmake-build-debug/CMakeFiles/hamming_distance.c.dir
+C:/Users/user/OneDrive/Desktop/C projects (cmps 270)/Asst1/cmake-build-debug/CMakeFiles/msb_lsb.c.dir
+C:/Users/user/OneDrive/Desktop/C projects (cmps 270)/Asst1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/user/OneDrive/Desktop/C projects (cmps 270)/Asst1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

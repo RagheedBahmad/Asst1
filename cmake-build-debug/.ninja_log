@@ -1,0 +1,21 @@
+# ninja log v5
+0	248	6871213067779675	CMakeFiles/Asst1.dir/main.c.obj	a0b96031f30abfbc
+3	220	6871215956223103	CMakeFiles/Asst1.dir/msb_lsb.c.obj	c94b13f32a18056c
+1	246	6871217192113848	CMakeFiles/target_2.dir/msb_lsb.c.obj	fffd1f28e2c5cbf9
+262	595	6871217195238232	target_2.exe	38dedb8c5d745404
+1	252	6871218067713667	CMakeFiles/hamming_distance.c.dir/hamming_distance.c.obj	399f00d360579ace
+275	705	6871218071879532	hamming_distance.c.exe	c7987ebd43d03484
+1	202	6871218350398492	CMakeFiles/msb_lsb.c.dir/msb_lsb.c.obj	740a23c6c7fa6f5b
+222	591	6871218353883019	msb_lsb.c.exe	11736784d6218ba5
+4	216	6871219664711889	CMakeFiles/msb_lsb.c.dir/msb_lsb.c.obj	740a23c6c7fa6f5b
+232	621	6871219668410542	msb_lsb.c.exe	11736784d6218ba5
+3	263	6871220506809552	CMakeFiles/msb_lsb.c.dir/msb_lsb.c.obj	740a23c6c7fa6f5b
+287	768	6871220511374495	msb_lsb.c.exe	11736784d6218ba5
+4	256	6871220628164611	CMakeFiles/msb_lsb.c.dir/msb_lsb.c.obj	740a23c6c7fa6f5b
+274	723	6871220632398592	msb_lsb.c.exe	11736784d6218ba5
+3	255	6871223538713587	CMakeFiles/msb_lsb.c.dir/msb_lsb.c.obj	740a23c6c7fa6f5b
+273	710	6871223542782115	msb_lsb.c.exe	11736784d6218ba5
+3	230	6871224146822237	CMakeFiles/msb_lsb.c.dir/msb_lsb.c.obj	740a23c6c7fa6f5b
+249	705	6871224151163300	msb_lsb.c.exe	11736784d6218ba5
+3	207	6871224264400751	CMakeFiles/msb_lsb.c.dir/msb_lsb.c.obj	740a23c6c7fa6f5b
+231	681	6871224268732073	msb_lsb.c.exe	11736784d6218ba5
